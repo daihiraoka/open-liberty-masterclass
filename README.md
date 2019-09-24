@@ -149,7 +149,7 @@ Add the following dependency to the `coffee-shop/pom.xml`
 ```XML
         <dependency>
             <groupId>io.openliberty.features</groupId>
-            <artifactId>mpOpenAPI-1.0</artifactId>
+            <artifactId>mpOpenAPI-1.1</artifactId>
             <type>esa</type>
             <scope>provided</scope>
         </dependency> 
@@ -177,7 +177,7 @@ Near the top of the file, you'll see the following `<featureManager/>` entry:
 This entry lists all the features to be loaded by the server.  Add the following entry inside the `<featureManager/>` element:
 
 ```XML
-        <feature>mpOpenAPI-1.0</feature>
+        <feature>mpOpenAPI-1.1</feature>
 ```
 
 Build and run the coffee-shop service:
